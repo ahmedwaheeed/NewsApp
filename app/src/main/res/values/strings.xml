@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="type">Type:</string>
+    <string name="article">Article</string>
+    <string name="this_is_the_title_of_th_article">This is the title of th article</string>
+    <string name="section">Section:</string>
+    <string name="politics">Politics</string>
+    <string name="noWifi">No Internet connection</string>
+    <string name="noArticles">No Articles found</string>
+    <string name="_2018_03_15">2018-03-15</string>
+    <string name="settings">settings</string>
+
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order-by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <string name="settings_star_rating_label">Rating</string>
+    <string name="settings_star_rating_key" translatable="false">star-rating</string>
+    <string name="settings_star_rating_default" translatable="false">5</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for order-by magnitude option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+    <string name="author">Author</string>
+    <string name="will_smith">Will Smith</string>
+
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_by_newest_label</item>
+        <item>@string/settings_order_by_oldest_label</item>
+        <item>@string/settings_order_by_relevance_label</item>
+    </string-array>
+
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_by_newest_value</item>
+        <item>@string/settings_order_by_oldest_value</item>
+        <item>@string/settings_order_by_relevance_value</item>
+    </string-array>
+
+</resources>
